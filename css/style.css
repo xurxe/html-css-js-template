@@ -1,0 +1,29 @@
+/* GENERAL *************************************************************************************************** */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+
+
+/* TYPOGRAPHY ************************************************************************************************ */
+
+html {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    html {
+        font-size: calc(16px + (20 - 16) * (100vw - 600px) / (900 - 600));    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
