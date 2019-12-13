@@ -38,19 +38,19 @@ body {
 /* ---- */
 
 /* On narrow screens, the scale between p, h2, and h1 is about the golden number (1.62)*/
-p {
+.P {
   font-size: 20px;
   line-height: 1.5em;
   margin-bottom: 2em;
 }
 
-h2 {
+.H2 {
   font-size: 32px;
   font-weight: normal;
   margin-bottom: 0.5em;
 }
 
-h1 {
+.H1 {
   font-size: 52px;
   font-weight: normal;
   margin-bottom: 0.25em;
@@ -58,11 +58,11 @@ h1 {
 
 /* On wide screens, the scale between p, h2, and h1 is about e (2.72) */
 @media only screen and (min-width: 900px) {
-  h2 {
+  .H2 {
     font-size: 54px;
   }
 
-  h1 {
+  .H1 {
     font-size: 148px;
   }
 }
@@ -78,11 +78,11 @@ UPPER = max-width
 change calc formulas manually if any parameters change!
 */
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-  h2 {
+  .H2 {
     font-size: calc(32px + (54 - 32) * (100vw - 600px) / (900 - 600));
   }
 
-  h1 {
+  .H1 {
     font-size: calc(52px + (148 - 52) * (100vw - 600px) / (900 - 600));
   }
 }
@@ -180,14 +180,14 @@ change calc formulas manually if any parameters change!
 /* HEADER */
 /* ------ */
 
-header {
+.Header {
   padding-top: 2rem;
 }
 
 /* ---- */
 /* MAIN */
 /* ---- */
-main {
+.Main {
   padding-bottom: 2rem;
 }
 
@@ -195,7 +195,7 @@ main {
 /* FOOTER */
 /* ------ */
 
-footer {
+.Footer {
   background-color: var(--purple);
   margin-top: auto;
   padding-top: 1em;
