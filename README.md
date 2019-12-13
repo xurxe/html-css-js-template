@@ -4,7 +4,7 @@ Description.
 
 ## Demo
 
-Coming soon.
+[See it live!](https://xurxe.github.io/html-css-js-template/)
 
 ## Author
 
